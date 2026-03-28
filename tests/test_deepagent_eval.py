@@ -21,7 +21,7 @@ from dotenv import load_dotenv
 load_dotenv(Path(__file__).parent.parent / ".env")
 
 from deepagents import create_deep_agent
-from deepagents.backends.filesystem import FilesystemBackend
+from deepagents.backends.local_shell import LocalShellBackend
 from langgraph.checkpoint.memory import MemorySaver
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
@@ -58,7 +58,11 @@ QUICK_IDS = {1, 5, 13, 16, 17}
 def create_agent():
     return create_deep_agent(
         model=MODEL,
-        backend=FilesystemBackend(root_dir=str(PROJECT_DIR), virtual_mode=True),
+        backend=LocalShellBackend(
+            root_dir=str(PROJECT_DIR),
+            inherit_env=True,    # Python PATH 상속 (계산기 CLI 실행에 필수)
+            timeout=60,          # 계산기 실행 타임아웃
+        ),
         skills=[f"{SKILLS_DIR}/"],
         checkpointer=MemorySaver(),
     )

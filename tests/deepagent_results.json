@@ -2,141 +2,141 @@
   {
     "id": 1,
     "question": "맞벌이 연소득 1억이고 서울 8억 아파트 사려고 해. 무주택이고 생애최초 아니고 변동금리야. 대출 가능한 금액이 얼마야?",
-    "response": "대출 가능한 금액을 정확하게 계산하려면 여러 금융기관의 대출 상품 조건을 비교해야 합니다. 일반적으로 주택담보대출(LTV: Loan to Value)과 총부채상환비율(DTI: Debt to Income)을 중심으로 대출 한도가 결정됩니다. 기본적인 정보를 바탕으로 대략적인 가능 금액을 살펴보겠습니다:\n\n1. **LTV (주택담보대출비율)**: 서울의 경우 일반적으로 LTV는 최대 40% 정도로 제한되지만, 조건에 따라 다를 수 있습니다. 8억 아파트의 경우 최대 약 3.2억이 가능합니다.\n\n2. **DTI (총부채상환비율)**: 연소득에 따라 대출 상환 가능한 금액을 결정합니다. 일반적으로 DTI는 40%를 넘지 않는 선으로 계산됩니다.\n\n3. **변동금리**: 변동금리는 고정금리에 비해 대출 가능 금액이 높거나 낮을 수 있으니 금융기관의 정책을 확인하는 것이 중요합니다.\n\n이 정보는 기본적인 가이드입니다. 정확한 대출 가능 금액을 산출하려면 금융기관과 상담을 통해 LTV, DTI, 금리 조건 등을 구체적으로 파악해야 합니다. 추가적인 시뮬레이션이나 세부 문의가 필요하다면 말씀해 주세요.",
-    "elapsed": 4.3,
+    "response": "서울의 8억 아파트를 구매하기 위한 대출 가능한 금액은 최대 3억 원입니다. 이 금액은 LTV(주택담보대출비율) 제약에 의한 것이며, 특히 LTV의 한계는 전체 주택 가치의 40%로 설정되어 있습니다.\n\n최적 대출 금액을 높이기 위한 향상 팁:\n- 연소득 9천만 이하 무주택자 조건을 만족할 경우 서민실수요자 자격을 얻어 LTV를 70%까지 적용할 수 있습니다.\n- 만약 생애최초 주택 구입자로 자격이 된다면 LTV를 70%까지 적용할 수 있습니다.\n\n따라서 현재 기준으로는 3억 원까지 대출이 가능합니다. 다른 요청 사항이나 추가로 궁금한 점이 있으면 말씀해 주세요.",
+    "elapsed": 16.7,
     "error": null
   },
   {
     "id": 2,
     "question": "사회초년생인데 연소득 4천만이야. 서울 5억짜리 첫 집 사려고 하는데 변동금리 4.5% 30년이면 얼마까지 돼?",
-    "response": "월 상환금액은 대략적으로 2,533,314원입니다.\n\n여러 요소에 고려된 예상 월 상환금액을 보기 쉽게 이렇게 정리할 수 있습니다:\n\n---\n\n**총 예상 월 상환금액: ₩2,533,314**\n\n- 대출 원금 및 이자: ₩2,533,314\n\n---\n\n이렇게 표기해서 사용하시면 월 상환금액을 쉽게 파악할 수 있습니다. 추가적인 도움이 필요하시면 말씀해 주세요!",
-    "elapsed": 14.8,
+    "response": "최대 대출 가능액은 19억 원입니다. \n\n#### 세부 내역 및 규제 한도:\n- **LTV 한도**: 3.5억 원 (주택가의 70%)\n- **DTI 한도**: 3.9472억 원\n- **DSR 한도** (결정적 한도): 1.9069억 원\n  - 스트레스 금리 7.5%가 적용되어 이자율 변동을 고려합니다.\n\n#### 고려사항:\n- DSR이 최종 대출 한도를 결정하는 주요 요소입니다.\n- 금리를 고정으로 변경 시 대출한도가 19억 원에서 26억 원으로 증가할 수 있습니다.\n- 대출 기간을 40년으로 연장하면 19억 원에서 2억 원으로 약간 증가합니다.\n\n이 결과는 한국 주택금융 규제를 고려하여 정확하게 산출되었습니다. 추가 질문이 있거나 더 필요한 정보가 있다면 말씀해 주세요!",
+    "elapsed": 18.2,
     "error": null
   },
   {
     "id": 3,
     "question": "연소득 6천만이고 서울 7억 아파트 생애최초야. 고정금리로 받으면 변동보다 유리해?",
-    "response": "고정금리와 변동금리 중 어느 것이 더 유리한지는 여러 가지 요인에 따라 다릅니다. 여기에서 고려할 몇 가지 주요 요소는 다음과 같습니다:\n\n1. **금리 예측**:\n   - **고정금리**: 대출 기간 동안 금리가 일정하게 유지됩니다. 금리가 오를 것으로 예상되면 고정금리가 유리할 수 있습니다.\n   - **변동금리**: 시장 금리에 따라 변동됩니다. 금리가 하락할 것으로 예상되면 변동금리가 유리할 수 있습니다.\n\n2. **재정 계획 및 안정성**:\n   - 고정금리는 대출 비용을 예측 가능하게 하여 재정 계획을 세우기 쉽습니다.\n   - 변동금리는 초기에는 낮을 수 있지만, 금리 상승 시 대출 비용이 증가할 수 있습니다.\n\n3. **현재 경제 상황**:\n   - 중앙은행 정책, 인플레이션, 경제 성장률 등이 금리 변동에 영향을 줄 수 있습니다.\n\n4. **대출 기간**:\n   - 단기 대출일 경우 변동금리가 초기에는 유리할 수 있지만, 장기 대출일 경우 고정금리가 더 안전할 수 있습니다.\n\n당신의 상황인 연소득 6천 만원으로 7억 원짜리 아파트를 처음 구입한다면, 시장 금리 전망을 주의 깊게 살펴보고, 당신의 재정 상황에 맞춰 결정하는 것이 필요합니다. 경제 전문가나 금융 상담사와 상담하여 현재의 금리 및 경제 상황에 대한 조언을 받는 것도 좋은 방법입니다.",
-    "elapsed": 3.3,
+    "response": "It seems there was an error trying to execute the DSR calculation scripts. The environment might not have Python set up correctly. To proceed, I'll provide you with some general guidance instead.\n\n### Factors to Consider When Choosing Between Fixed and Variable Rate:\n\n1. **Current Interest Rates**: \n   - **Fixed Rate**: Generally beneficial if current interest rates are low but expected to rise.\n   - **Variable Rate**: May be advantageous if rates are high now but expected to fall.\n\n2. **Stability vs. Flexibility**:\n   - **Fixed Rate**: Provides predictable monthly payments, which can be suitable for stable budgeting.\n   - **Variable Rate**: Payments can fluctuate, offering potential savings if rates drop but increased costs if they rise.\n\n3. **Stress Test Rates**:\n   - **Fixed Rate**: Typically no stress rate surcharge.\n   - **Variable Rate**: Includes stress rate considerations; could be problematic if DSR limits are tight.\n\n4. **Your Financial Situation**:\n   - Evaluate your ability to handle possible increases in monthly payments with a variable rate.\n   - Consider fee structures for switching rates or refinancing options.\n\nGiven this information—and potential future hikes in rates—a fixed-rate mortgage often offers peace of mind if long-term stability is a priority. However, personal financial circumstances and market conditions must be weighed for a comprehensive decision.",
+    "elapsed": 11.4,
     "error": null
   },
   {
     "id": 4,
     "question": "연소득 4천만이고 지방 3억짜리 아파트 보고 있어. 무주택이고 변동금리 4% 30년이면?",
-    "response": "The monthly repayment amount for the 3 billion won apartment loan with a 4% variable interest rate over 30 years is approximately 14,446,500 won.",
-    "elapsed": 9.9,
+    "response": "The command to calculate the loan affordability failed because Python is not found in the current environment. This is likely due to a configuration issue with the execution environment.\n\nYou can try running the script in your local environment to calculate the loan affordability. Here's a command you can run in your terminal:\n\n```bash\npython /path/to/loan-affordability/references/calculator.py calculate --annual-income 4000 --property-value 30000 --loan-rate 4 --loan-months 360 --region-type 지방 --borrower-type 무주택 --rate-type 변동\n```\n\nMake sure to replace `/path/to/loan-affordability/` with the actual path where the script is located on your system. If you encounter any issues, please let me know!",
+    "elapsed": 10.9,
     "error": null
   },
   {
     "id": 5,
     "question": "연소득 8천만 무주택 서민실수요자야. 서울 15억짜리 아파트 대출 한도가 얼마야?",
-    "response": "한국에서 주택담보대출을 받을 때, 특히 비싼 주택에 대해 대출 한도를 결정할 때 몇 가지 중요한 비율이 고려됩니다. 주로 DTI(총부채상환비율)과 LTV(주택담보인정비율)이 그것입니다. 일반적으로 LTV는 최대 40-70% 수준이며, DTI는 40% 내외로 설정됩니다. \n\n서울의 고가 주택(예: 9억 원 초과 주택)의 경우, LTV 규제가 더 엄격하게 적용될 수 있습니다. 예를 들어, LTV가 40%라고 가정했을 때, 15억 원의 아파트라면 최대 6억 원까지 대출이 가능할 수 있습니다. 하지만 이는 개인의 신용도, 대출 기관의 정책, 기타 부채 등에 따라 변동될 수 있습니다.\n\n정확한 한도는 은행과의 구체적인 상담을 통해 결정되므로, 직접 금융기관과 상담하시는 것이 좋습니다.",
-    "elapsed": 3.0,
+    "response": "연소득 8천만 원의 무주택 서민실수요자가 서울의 15억 원짜리 아파트에 대해 대출 가능한 최대 한도는 2억 원입니다. 이는 LTV 규제에 의해 제한된 금액입니다. LTV 비율은 70%이지만 절대한도가 적용되어 최종 대출 가능 금액은 2억 원으로 제한됩니다. DS(R) 및 DTI 규제는 각각 더 높은 대출 가능액을 제시하지만, LTV가 가장 제약적인 규제로 작용하였습니다.",
+    "elapsed": 14.4,
     "error": null
   },
   {
     "id": 6,
     "question": "연소득 8천만인데 이미 주담대 1억(3.5%)이랑 신용대출 3천만(5%)이 있어. 서울 9억 아파트 추가 대출 받을 수 있어?",
-    "response": "아파트 추가 대출 가능성을 평가하기 위해서는 다음과 같은 요소들을 고려해야 합니다:\n\n1. **DTI(총부채상환비율)**: 연소득 대비 연간 부채 상환액 비율입니다. 일반적으로 DTI가 40%를 넘지 않도록 제한합니다.\n\n2. **LTV(Loan To Value, 담보인정비율)**: 부동산의 담보가치 대비 대출 금액의 비율입니다. 서울지역은 보통 40~70% 선에서 제한됩니다.\n\n3. **DSR(총부채원리금상환비율)**: 모든 금융권 대출의 원리금 상환액을 연소득으로 나눈 비율입니다. 금융권에 따라 다른 기준을 적용할 수 있습니다.\n\n이를 기반으로 아주 간단한 계산 예시를 들면:\n\n- 현재 연 소득은 8천만 원이며, 대출 상환액이 (주담대 1억 원 * 3.5% 이자) + (신용대출 3천만 원 * 5% 이자)로 계산됩니다.\n- 새로운 아파트 대출 없이 현재 DTI를 계산하고 새로운 대출 가능한 경우에 대한 시나리오를 마련해야 할 것입니다.\n\n정확한 가능성은 은행의 정책, 개인 신용도 및 기타 금융 조건에 따라 달라집니다. 따라서 은행 상담을 통해 구체적인 가능성을 확인하는 것이 좋습니다.",
-    "elapsed": 4.4,
+    "response": "Here's a summary of your potential for a new loan based on your financial situation and regulatory constraints:\n\n1. **LTV (Loan-To-Value) Constraint**:\n   - **Region:** Seoul (투기과열)\n   - **Borrower Type:** Non-homeowner (무주택)\n   - **LTV Base Limit:** 40% for non-homeowners in regulated areas.\n   - As your property value is 900 million KRW, the maximum loan based purely on LTV would be 360 million KRW.\n\n2. **DTI (Debt-To-Income) Ratio**:\n   - Your calculated DTI is 10%, which is well within the regulatory threshold of 40%.\n   - Existing loans considered: 100 million KRW mortgage at 3.5% and 30 million KRW personal loan at 5%.\n\n3. **DSR (Debt Service Ratio)**:\n   - Monthly mortgage payment for the existing loan: approximately 557,752 KRW.\n   - Unable to process exact DSR without executing the script, but current known constraints suggest room for more debt before crossing typical thresholds.\n\n4. **Maximum Additional Loan Possibility**:\n   - Considering LTV is often the tightest constraint, based on your current LTV, you would not likely qualify for an additional 9 Billion KRW apartment loan without exceeding typical regulatory limits unless other qualifying factors apply.\n\nIf you seek more leverage beyond regulatory constraints, consider asset disposition or further equity options. Please consult a financial advisor or apply for consultative evaluation with a lending institution for this high-value transaction.",
+    "elapsed": 81.4,
     "error": null
   },
   {
     "id": 7,
     "question": "연소득 6천만이고 지방(비규제) 4억 아파트 생애최초야. 고정금리 3.5% 30년이면?",
-    "response": "The monthly repayment amount for your 4 billion KRW mortgage with a fixed interest rate of 3.5% over 30 years is approximately 19,659,372 KRW.",
-    "elapsed": 11.3,
+    "response": "사용자의 조건에 따른 최대 대출 가능 금액은 **4억 4천 539만 원**입니다. 이 금액은 DSR(총부채원리금상환비율)에 의해 결정되었습니다. 각 기준별로 산출된 최대 대출 가능 금액은 다음과 같습니다:\n\n- **LTV (주택담보대출비율):** 3억 2천만 원 (적용된 LTV 비율: 80%)\n- **DTI (총부채상환비율):** 6억 6천 808만 원 (적용된 DTI 비율: 60%)\n- **DSR (총부채원리금상환비율):** 4억 4천 539만 원 (적용된 DSR 비율: 40%)\n\n결과적으로, 대출 가능 금액은 DSR 기준의 4억 4천 539만 원이 적용되었습니다. 추가적으로 질문이 있거나 더 궁금한 점이 있다면 말씀해 주세요.",
+    "elapsed": 33.5,
     "error": null
   },
   {
     "id": 8,
     "question": "연소득 5천만인데 1금융 안 되면 2금융(저축은행)은? 서울 6억 변동 5.5%야.",
-    "response": "연소득 5천만원, 6억짜리 집, 변동금리 5.5%의 조건으로 1금융권에서 대출이 어려운 경우, 2금융권(예: 저축은행)을 고려해 볼 수 있습니다. \n\n저축은행은 일반적으로 1금융권에 비해 대출 심사가 덜 까다롭고 승인 가능성이 높지만, 이자율이 더 높다는 단점이 있습니다. 연소득과 집의 가치에 따라 대출 한도 및 이자율이 다를 수 있으니, 몇 가지 사항을 확인해 보시는 게 좋습니다:\n\n1. **대출 한도**: 연소득과 담보인 집의 가치에 따라 대출 가능 금액이 결정됩니다. 6억짜리 집을 담보로 어떤 금액까지 대출 가능한지 확인해 보세요.\n\n2. **이자율**: 저축은행의 변동 이자율이 1금융권과 어떻게 다른지 확인해 보세요. 일반적으로 저축은행은 더 높은 이자를 부과합니다.\n\n3. **상환 계획**: 대출 금액과 이자율에 따라 월 상환금액이 연소득에 비해 무리 없는 수준인지 확인해야 합니다.\n\n4. **기타 조건**: 저축은행에서 제공하는 기타 조건이나 수수료를 자세히 살펴보세요.\n\n대출을 고려하실 때 여러 저축은행의 조건을 비교하고 전문가와 상담하시는 것을 추천드립니다. 이는 최적의 금융 상품을 선택하는 데 도움이 됩니다.",
-    "elapsed": 6.7,
+    "response": "2금융권에서 대출을 고려할 때, 저축은행은 일반적으로 1금융권보다 더 높은 금리를 제공합니다. 연소득 5천만 원인 상황에서 서울의 6억 원짜리 부동산을 담보로 대출을 받으려면 몇 가지 사항을 확인해야 합니다.\n\n1. **LTV (Loan to Value Ratio)**: 저축은행의 경우 LTV 규제가 1금융권보다 느슨할 수 있지만, 여전히 부동산 감정가에 대한 대출 한도가 존재합니다.\n   \n2. **금리**: 변동금리 5.5%는 저축은행에서 제공할 수 있는 금리보다 다소 낮아 보입니다. 저축은행은 대체로 이보다 높은 금리로 대출을 제공할 가능성이 큽니다.\n\n3. **DSR (Total Debt Service Ratio)**: 연소득에 비례하여 지불할 수 있는 원리금 상환 능력을 확인합니다. 저축은행은 1금융권에 비해 DSR 규제가 덜 엄격할 수 있지만, 여전히 중요한 고려사항입니다.\n\n4. **대출 가능 금액**: 연소득과 부동산 가치, 기타 부채 사항을 고려하여 최대 대출 가능 금액을 계산해야 합니다.\n\n저축은행을 통한 대출은 상대적으로 더 높은 금리와 조건을 가질 수 있으므로 충분한 비교와 검토가 필요합니다. DSR, LTV 등을 고려하여 실제 대출 가능 금액을 확인할 수 있도록 계산해드릴까요?",
+    "elapsed": 3.9,
     "error": null
   },
   {
     "id": 9,
     "question": "연소득 2억이고 서울 25억 아파트 생애최초로 사려는데. 고정금리야. 얼마까지 돼?",
-    "response": "연소득과 주택 가격을 바탕으로 대출 한도를 계산하는 것은 여러 요소에 따라 달라집니다. 한국에서는 주택담보대출비율(LTV), 총부채상환비율(DTI), 그리고 대출상환능력평가(DSR) 등이 대출 한도에 영향을 줍니다. \n\n기본적인 계산을 하기 위해서는 다음과 같은 정보를 고려해야 합니다:\n\n1. **LTV (주택담보대출비율)**: 부동산의 가치를 기준으로 대출 가능한 최대 금액을 결정합니다. 예를 들어 LTV가 40%라면 25억 아파트에 대해 최대 대출 가능 금액은 10억 원입니다.\n   \n2. **DTI (총부채상환비율)**: 연 소득 대비 전체 부채 상환 금액의 비율로, 예를 들어 DTI가 40%라면 연 소득 2억 원의 40%인 8천만 원이 연간 상환 가능한 최대 금액입니다.\n   \n3. **DSR (총부채원리금상환비율)**: 모든 금융 부채 상환액을 연 소득으로 나눈 비율로, DTI와 유사하지만 더 엄격하게 적용될 수 있습니다.\n\n각 은행이나 금융기관마다 정책이 다를 수 있으며, 이를 반영한 실제 계산을 위해서는 구체적인 세부 정보와 직접적인 상담이 필요합니다. 만약 추가적인 정보나 계산 방법에 관심이 있다면, 구체적인 금리나 상환 기간 등의 조건을 알려주신다면 더 자세한 도움을 드릴 수 있습니다.",
-    "elapsed": 4.5,
+    "response": "The command to calculate the loan affordability failed because Python is not available in the current execution environment. Unfortunately, without the ability to run this calculation script due to the environment limitation, I'm unable to provide an exact result directly.\n\nHowever, I recommend ensuring you have access to a system where you can run Python scripts, or contacting a financial advisor or bank to run such a calculation based on your details:\n\n- Annual Income: 2 billion KRW\n- Property Value: 2.5 billion KRW\n- Loan Type: Fixed interest rate\n- Borrower Type: First-time buyer in a regulated area (Seoul)\n\nIf you have access to a suitable environment for running Python, I can provide instructions on how to proceed with the calculation script. Let me know how you'd like to proceed!",
+    "elapsed": 7.1,
     "error": null
   },
   {
     "id": 10,
     "question": "연소득 7천만이고 서울 8억 생애최초야. 혼합형 10년 고정금리 4.5%면 스트레스가 얼마나 붙어?",
-    "response": "혼합형 대출의 스트레스 금리를 계산하기 위해서는 고정금리가 끝난 이후의 금리 상승 가능성을 고려해야 합니다. 현재 제공된 정보로는 특정 스트레스 금리 수준을 계산할 수 없습니다. 다만, 일반적으로 은행에서는 고정금리 기간 이후의 금리 상승에 대비하여 약 1.5%에서 2% 정도의 스트레스 금리를 더해 계산합니다.\n\n그러나 정확한 스트레스 금리를 알고 싶으시다면, 대출을 받으려는 금융기관에 문의하거나, 대출 상담 중에 스트레스 금리를 포함한 총 부담 비용을 확인하시는 것이 좋습니다. 또한 스트레스 금리 시나리오에 따른 월 상환금액 변동을 확인하여 재무 계획에 반영하시면 더욱 안정적인 계획을 세울 수 있습니다.",
-    "elapsed": 2.9,
+    "response": "현재 시스템에서 필요한 파일을 찾을 수 없습니다. 따라서 스트레스 금리에 대한 정보를 제공하기 어렵습니다. 다른 방법으로 도움을 드릴 수 있을까요?",
+    "elapsed": 2.7,
     "error": null
   },
   {
     "id": 11,
     "question": "연소득 3천만이고 지방 소도시 2억짜리 아파트야. 고정금리 3.8% 20년이면?",
-    "response": "월 1,184,600원 정도를 상환하게 됩니다. 이 수치는 20년 동안 매달 일정하게 지급하는 것입니다.",
-    "elapsed": 12.3,
+    "response": "보금자리론에 대한 정보에 따라, 고정금리 3.8%로 20년 동안 2억 원을 대출받을 경우 월 상환액을 대략 계산할 수 있습니다. 그러나 보금자리론의 실제 금리는 20년 기준으로 4.20%이며, 아낌e보금자리론의 경우 우대금리를 적용하여 최저 4.05%까지 가능합니다. 사용자의 소득 조건은 보금자리론의 기본 자격요건을 충족합니다.\n\n다음과 같은 대출 세부 사항이 적용됩니다:\n- 대출 금액: 2억 원\n- 대출 기간: 20년\n- 금리: 3.8% (사용자 제공)\n\n월 상환금을 계산하여 대출 비용을 분석해 보겠습니다.",
+    "elapsed": 3.9,
     "error": null
   },
   {
     "id": 12,
     "question": "연소득 1.2억인데 이미 집이 한 채 있어. 서울 10억짜리로 갈아타려고 기존 집 처분 조건으로 대출 받으면?",
-    "response": "서울에서 주택을 구입하기 위해 대출을 받으려 할 때, 연소득과 기존 주택 처분 여부는 대출 한도와 조건에 중요한 영향을 미칩니다. \n\n주택담보대출의 경우, 일반적으로 소득 대비 부채상환비율(DSR) 및 주택담보인정비율(LTV)에 따라 대출 한도가 결정됩니다. 서울의 경우, 규제가 강화되어 있기 때문에 LTV가 일반적으로 40% 정도로 제한됩니다. 그러나 규제 지역 및 조건에 따라 다를 수 있습니다.\n\n1. **기존 주택 처분 조건**: \n   - 기존 주택을 처분할 경우, 일시적으로 LTV 규제가 완화될 가능성이 있고 높은 대출 한도를 받을 수 있습니다. \n   - 하지만, 처분 조건이 걸려있다면 빠른 시일 내에 기존 주택을 매각해야 합니다.\n\n2. **소득 기준**:\n   - 연소득 1.2억 원인 경우, 높은 DSR 규제에 따라 대출 상환 가능 금액이 산정됩니다. \n   - DSR은 일반적으로 소득의 40% 정도를 초과하지 않도록 제한합니다.\n\n3. **대출 한도 계산 예시**:\n   - 만약 주택의 가치를 10억 원으로 평가하고 기존 주택을 처분한다고 가정할 때, 대출 가능 금액은 약 4억 원 정도(LTV 40% 기준)로 예상할 수 있습니다.\n   - 정확한 대출 한도는 은행의 정책 및 대출 상품에 따라 다르게 적용됩니다.\n\n주택담보대출을 계획 중이라면, 구체적인 조건을 은행 상담을 통해 확인하시는 것이 중요합니다. 다양한 금융기관의 조건을 비교하여 가장 유리한 상품을 선택하는 것이 좋습니다.",
-    "elapsed": 4.4,
+    "response": "현재 상황을 고려할 때, 서울에서 10억 원 짜리 주택으로 갈아타려고 기존 주택을 처분하는 조건으로 대출을 받는 경우, 몇 가지 중요한 요소를 고려해야 합니다.\n\n1. **대출 한도**: \n   - 기존 주택을 처분할 경우, 새로운 주택에 대한 대출은 담보가치의 일정 비율 내에서 결정됩니다. 이 경우 Loan to Value (LTV) 비율이 적용되는데, 정부 규제와 주택 담보 가치에 따라 달라집니다.\n   \n2. **주택 구입 자금 대출**: \n   - 당신의 소득 수준과 주택의 가격을 고려하여 가능한 디딤돌대출, 보금자리론, 또는 기타 정책 대출을 활용할 수 있을지 검토해야 합니다.\n\n3. **DTI/DSR 규제**: \n   - 총부채상환비율(DTI)과 총부채원리금상환비율(DSR) 규제를 만족해야 합니다. 이는 소득 대비 부채 상환 가능 금액을 측정하는 지표로, 대출 가능 금액에 영향을 미칩니다.\n\n이 정보를 바탕으로 가능한 대출 옵션을 더 구체적으로 분석할 수 있습니다. 이를 위해, DTI/DSR, LTV 계산과 구체적인 대출 가능 금액을 살펴보겠습니다.",
+    "elapsed": 4.1,
     "error": null
   },
   {
     "id": 13,
     "question": "연소득 5천만인데 3억 대출 고정금리 4.5% 30년으로 받으면 DSR이 몇 퍼센트야?",
-    "response": "1. **월 대출 상환액 계산 결과:**\n   - 월 상환액: 1,520,963 KRW\n\n2. **DSR 계산:**\n   - 총 연간 대출 상환액 = 월 상환액 × 12 = 1,520,963 × 12 ≈ 18,251,556 KRW\n\nDSR을 계산하면:\n\n\\[\n\\text{DSR} = \\left(\\frac{\\text{총 연간 대출 상환액}}{\\text{연소득}}\\right) \\times 100 = \\left(\\frac{18,251,556}{50,000,000}\\right) \\times 100 \\approx 36.50\\%\n\\]\n\n따라서 DSR은 약 36.50%입니다.",
-    "elapsed": 20.4,
+    "response": "The DSR (Debt Service Ratio) for your scenario can be calculated using the following approach:\n\n1. **Convert the annual interest rate to a monthly rate**:\n   - Monthly rate \\( r \\) = 4.5% annual / 12 = 0.375% monthly = 0.00375 in decimal\n   \n2. **Calculate the monthly loan payment (M)** using the formula for an amortizing loan:\n   \\[\n   M = P \\frac{r(1+r)^n}{(1+r)^n-1}\n   \\]\n   - Where:\n     - \\( P \\) = 300,000,000 Won\n     - \\( r \\) = 0.00375\n     - \\( n \\) = 360 (since it's a 30-year loan with monthly payments)\n\n3. **Calculate the annual debt obligation** by multiplying the monthly payment by 12.\n\n4. **Calculate DSR** with the formula:\n   \\[\n   \\text{DSR} = \\frac{\\text{Annual Debt Obligation}}{\\text{Annual Income}} \\times 100\n   \\]\n\nIf you apply these steps, you will get your DSR percentage. If you need help with the calculations or verifying your result, please let me know!",
+    "elapsed": 9.6,
     "error": null
   },
   {
     "id": 14,
     "question": "같은 조건인데 변동금리로 바꾸면? 스트레스 금리가 붙는다던데.",
-    "response": "변동금리로 대출을 받을 때, 일반적으로 기본 대출 금리 외에 스트레스 금리라는 것이 추가될 수 있습니다. 이는 대출 금리가 오르거나 경제 상황이 변동했을 때, 대출을 상환할 수 있는지에 대한 위험을 평가하기 위한 기준입니다. \n\n기본적인 내용은 다음과 같습니다:\n\n1. **변동금리**: 변동금리는 시장 금리와 연동되어 일정 기간마다 변동할 수 있는 금리입니다. 이는 경제 상황에 따라서 높아질 수도 있고 낮아질 수도 있습니다.\n\n2. **스트레스 금리**: 금융기관은 대출자의 상환 능력을 평가할 때, 예상하지 못한 상황에서 대출자가 얼마나 견딜 수 있는지를 평가하기 위해 스트레스 금리를 사용합니다. 스트레스 금리는 일반적으로 현재 금리보다 몇 퍼센트 더 높은 수준으로 설정됩니다.\n\n이러한 스트레스 테스트는 대출자가 금리 상승의 위험에 대비하고 있는지를 확인하는 데 중요한 역할을 합니다. 변동금리 대출을 고민하고 있다면, 금융기관의 대출 담당자와 자세히 상담하여 스트레스 금리가 어떻게 적용되는지, 그리고 이에 따라 대출 상환 계획이 어떻게 변할 수 있는지 알아보는 것이 좋습니다.",
-    "elapsed": 3.6,
+    "response": "스트레스 가산금리(Bank Stress Rate Surcharge)는 변동금리로 대출을 받을 때 전체 금리에 추가적으로 부과되는 금리를 뜻합니다. 변동금리의 경우, 다음과 같은 스트레스 가산금리가 적용됩니다:\n\n- 수도권 및 규제지역 주택담보대출: +3.0%p\n- 지방 주담대: +0.75%p\n\n실제로 스트레스 가산금리는 대출 금리의 변동성에 따른 위험을 줄이기 위해 설정된 추가 금리입니다. 예를 들어, 기존 금리가 4.5%인 경우 변동금리 스트레스 가산이 적용되면, 효과적으로 7.5% 기준으로 대출 상환 능력을 평가하게 됩니다.",
+    "elapsed": 3.1,
     "error": null
   },
   {
     "id": 15,
     "question": "연소득 5천만인데 변동금리에서 고정으로 바꾸면 대출 가능액이 얼마나 늘어나?",
-    "response": "대출 가능 금액은 다양한 요인에 따라 결정되며, 연소득, 금리, 상환 기간, 기타 부채 등이 이 계산에 영향을 미칠 수 있습니다.  \n\n여기서는 일반적인 경우를 기준으로 설명드리겠습니다:\n\n1. **금리 변동의 영향:**  \n   - **변동금리에서 고정금리로 변경 시:** 고정금리로 전환하면 일반적으로 대출 금리가 약간 상승할 수 있지만, 금리 인상으로 인한 리스크를 피할 수 있습니다.  \n   - **대출 가능 금액:** 금리가 낮을수록 한 달 대출 상환액이 줄어들어 더 많은 금액을 대출할 수 있습니다. 반대로 금리가 오르면 대출 가능 금액은 줄어듭니다.\n\n2. **상환능력 평가:**  \n   - 금융 기관들은 연소득 대비 월 상환액 비율을 기준으로 대출 가능 금액을 계산합니다.  \n\n3. **기타 요인:**  \n   - 신용 점수, 다른 부채 유무, 자산 상황 등도 대출 가능 금액에 영향을 미칩니다.\n\n정확한 대출 가능 금액을 알고 싶다면, 은행이나 금융기관에 직접 문의하시는 것이 가장 좋습니다. 다양한 시나리오를 기반으로 정확한 계산을 원하시면 추가적인 재무 정보를 제공해 주세요.",
-    "elapsed": 3.9,
+    "response": "변동금리에서 고정금리로 전환 시 대출 가능액을 정확히 계산하려면 `calculator.py`를 실행해야 합니다. 그럼 연소득 5천만원 조건으로 변동금리에서 고정금리로 전환할 때 대출 가능액이 얼마나 늘어나는지 계산해드리겠습니다.\n\n계산기에 필요한 정보를 아래와 같이 설정할 건데, 추가로 고려해야 할 점이 있으면 말씀해주세요.\n\n- 연소득: 5천만원\n- 대출금액: 설정 필요\n- 대출 금리: 기본값 사용\n- 대출 기간: 기본값 사용 (30년)\n- 지역: 기본값 사용 (수도권)\n- 금융권: 기본값 사용 (은행)\n- 기존 주담대: 생략\n- 기타 대출: 생략\n\n위와 같은 조건으로 계산을 시작하겠습니다. 먼저 대출 금액을 설정해야 하는데, 대출 금액을 어느 정도로 설정할까요? 아니면 기본값으로 진행할까요?",
+    "elapsed": 4.9,
     "error": null
   },
   {
     "id": 16,
     "question": "서울 12억 아파트인데 9억 넘는 부분은 LTV가 다르게 적용된다며?",
-    "response": "네, 맞습니다. 한국의 주택담보대출비율(LTV)은 주택 가격 구간에 따라 다르게 적용됩니다. 현재 정책에 따르면, 9억 원 이하의 주택은 40%의 LTV를 적용받습니다. 그러나 주택 가격이 9억 원을 초과하는 경우, 초과분에 대해서는 20%의 LTV가 적용됩니다.\n\n따라서, 서울에 있는 12억 원짜리 아파트를 구매할 경우:\n- 9억 원까지는 40% LTV가 적용되어 최대 3.6억 원까지 대출 가능합니다.\n- 나머지 3억 원(12억 원 - 9억 원)에 대해서는 20% LTV가 적용되어 추가로 최대 0.6억 원을 대출할 수 있습니다.\n\n총 4.2억 원의 대출이 가능하게 됩니다. 정책은 시간이 지남에 따라 변할 수 있으니, 항상 최신 정보를 확인하는 것이 중요합니다.",
-    "elapsed": 2.8,
+    "response": "네, 맞습니다. 서울에서 12억 원의 아파트를 구입할 경우, 주택 담보 대출 비율(LTV)이 9억 원 이하와 초과 부분에 다르게 적용됩니다.\n\n1. **9억 원 이하 부분**: 일반적으로 더 높은 LTV 비율이 적용되며, 이는 보통 9억 원 이하의 주택 가격에 대해 60~70%까지의 대출을 받을 수 있습니다.\n\n2. **9억 원 초과 부분**: 이 부분은 상대적으로 낮은 LTV 비율이 적용됩니다. 보통 50% 이하로 설정되며, 초과 금액에 대한 대출 가능 비율이 더 낮아져 대출 한도가 제한될 수 있습니다.\n\n정부의 규제 및 정책 변경에 따라 LTV 비율은 조정될 수 있으므로, 최신 정책을 확인하는 것이 중요합니다.",
+    "elapsed": 2.6,
     "error": null
   },
   {
     "id": 17,
     "question": "이미 집이 2채 있는데 서울에서 한 채 더 살 수 있어? 대출 가능해?",
-    "response": "한국에서는 주택담보대출을 받을 수 있는 가능성이 주택 소유 수와 연관이 있습니다. 일반적으로, 이미 두 채 이상의 주택을 소유하고 있는 경우 추가 대출을 받는 것이 어려울 수 있습니다. 특히 투기지역이나 투기과열지구로 지정된 서울의 경우, 규제가 더욱 엄격할 수 있습니다.\n\n하지만 이는 구체적인 개인의 재정 상황, 소득 수준, 부채 상황 등에 따라 다를 수 있습니다. 대출 가능 여부를 정확하게 알기 위해서는 금융기관이나 대출 전문가와 상담해 보시는 것이 좋습니다.",
-    "elapsed": 1.7,
+    "response": "이미 주택 두 채를 보유하고 있는 경우, 추가 주택을 구매하기 위한 대출은 상당히 제한적입니다. 한국에서는 주택 보유 수에 따라 주택담보대출비율(LTV), 총부채상환비율(DTI) 등의 대출 규제가 강화되며, 특히 투기과열지구나 조정대상지역에서는 추가 주택 구매가 더 어려워집니다.\n\n서울은 대체로 이러한 규제가 강화된 지역에 속하므로, 추가 주택 구매를 위한 대출은 실제로 거의 불가능할 수 있습니다. 예외적인 경우나 특정 조건을 만족할 경우에만 대출이 가능할 수 있으며, 이는 금융기관과 구체적인 상담을 통해 확인할 수 있는 부분입니다.\n\n만약 특정 금융상품이나 대출 한도를 알아보고 싶다면, 해당 사항을 추가로 알려주시면 더 구체적인 정보를 제공해 드릴 수 있습니다.",
+    "elapsed": 3.0,
     "error": null
   },
   {
     "id": 18,
     "question": "연소득 8천만 이하 무주택인데 서민실수요자로 LTV 우대 받을 수 있어? 서울 7억이야.",
-    "response": "네, 말씀하신 조건에 따르면 \"서민 실수요자\"로 분류되어 LTV(주택담보대출비율) 우대를 받을 수 있습니다.\n\n1. **연소득 8천만원 이하**: 서민으로 분류되어 LTV 우대를 받을 수 있는 자격을 갖추고 있습니다.\n2. **무주택자**: 주택 소유 여부에 따라 대출 조건이 달라질 수 있는데, 무주택자는 보통 더 유리한 조건을 제공 받습니다.\n3. **서울 7억 원 주택 구매**: 서울은 투기과열지구로 분류되어 일반적인 LTV보다 낮은 비율이 적용되지만, 서민 실수요자에 한해서 일반적으로 LTV 완화 혜택이 제공됩니다.\n\n단, 구체적인 LTV 우대율은 정부 정책 및 금융 기관의 규정에 따라 다를 수 있으므로, 정확한 정보를 얻기 위해서는 관련 금융기관이나 주택금융공사에 문의하는 것이 좋습니다.",
-    "elapsed": 2.8,
+    "response": "서민 실수요자로서 LTV 우대를 받기 위해서는 몇 가지 조건이 필요합니다. 다음은 관련 요건입니다.\n\n1. **소득 기준**: 연소득 8천만 원 이하인 경우, 서민 실수요자로 분류될 수 있습니다.\n2. **주택 가격**: 서울의 경우, 구매하려는 주택의 가격이 일정 금액 이하일 때 LTV 우대를 받을 수 있습니다.\n3. **무주택자 요건**: 무주택자일 경우, 추가적인 우대를 받을 수 있습니다.\n\n서울에서 7억 원의 주택을 구매하려고 하는 경우, 서민 실수요자로서의 자격 조건에 부합할 수 있으므로 LTV 우대를 받을 가능성이 있습니다. 정확한 LTV 우대 혜택을 위해서는 관련 금융기관이나 정책을 통해 추가적인 확인이 필요합니다.",
+    "elapsed": 2.6,
     "error": null
   },
   {
     "id": 19,
     "question": "이미 신용대출 5천만(5%)이 있는데 DTI 계산할 때 이것도 포함돼? DSR이랑 뭐가 달라?",
-    "response": "네, 이미 가지고 있는 신용대출 5천만원은 DTI (총부채상환비율) 계산에 포함됩니다. DTI는 개인의 연 소득 대비 모든 부채의 연간 상환액 비율을 계산하는데 사용됩니다. 따라서 현재 가지고 있는 모든 대출의 상환액이 대출 한도를 결정하는데 영향을 미칩니다.\n\nDTI와 DSR (총부채서비스비율)의 주요 차이점은 계산하는 방식에 있습니다:\n\n1. **DTI (Debt-to-Income Ratio):** 개인의 총 소득 대비 부채 상환액이 차지하는 비율로, 특정 대출의 월 또는 연간 상환액을 소득과 비교하여 판단합니다.\n\n2. **DSR (Debt Service Ratio):** 총 소득 대비 모든 부채의 원리금 상환액의 비율을 계산하는 것입니다. 이것은 모든 대출의 원리금 상환액을 합산하여 소득과 비교합니다.\n\n둘 다 대출 심사 시 중요한 지표로 활용되지만, DSR은 기존 부채에 대한 상환 부담까지 포함하기 때문에 조금 더 엄격한 기준입니다.",
+    "response": "네, 이미 있는 신용대출은 DTI(총부채상환비율) 계산에 포함됩니다. DTI는 전체 소득 대비 부채의 원리금 상환 비율을 나타내며, 주택담보대출뿐만 아니라 신용대출 등 다양한 대출의 원리금을 포함하여 계산합니다.\n\nDSR(총부채원리금상환비율)도 비슷한 개념이지만, 더 포괄적으로 모든 금융 부채의 원리금 상환 부담을 계산에 포함합니다. 기본적으로 DTI와 DSR 둘 다 개인의 소득을 기준으로 부채 상환 능력을 평가하는 지표이지만, DSR은 모든 금융 부채를 포함하여 좀 더 엄격하게 적용됩니다.\n\n보다 자세한 계산이나 기준이 필요하면 추가로 말씀해 주세요.",
     "elapsed": 2.9,
     "error": null
   },
   {
     "id": 20,
     "question": "연소득 5천만이고 서울(투기과열)인데 DTI 기준으로 최대 얼마까지 대출 가능해?",
-    "response": "연소득과 지역에 따른 DTI(부채상환비율) 규제를 고려하여 대출 한도를 산출하는 과정은 비교적 복잡할 수 있습니다. DTI는 일반적으로 전체 부채에 대한 연소득 비율을 의미하며, 투기과열지구인 서울의 경우 대출 한도에 엄격한 제한이 있을 수 있습니다. \n\n기본적으로 DTI는 40%~60% 수준에서 제한될 수 있으며, 이는 차주의 소득 조건이나 금융기관의 정책 등에 따라 다를 수 있습니다. 연소득 5천만원인 경우를 40% DTI로 가정하면, 연간 부채 상환 가능 금액은 다음과 같이 계산됩니다:\n\n\\[ \\text{최대 대출 상환 가능액} = \\text{연소득} \\times \\text{DTI} = 50,000,000 \\times 0.4 = 20,000,000 \\]\n\n이를 통해 연간 최대 2천만원을 상환할 수 있는 대출금액을 계산할 수 있습니다. 대출의 금리와 기간에 따라 실제 대출 가능 금액은 달라질 수 있습니다.\n\n구체적인 최대 대출 가능 금액을 구하려면 추가적인 정보 예를 들어 이자율, 대출 기간 등이 필요합니다. 이러한 세부적인 계산이 필요하시면 말씀해 주세요!",
-    "elapsed": 3.6,
+    "response": "Unfortunately, the command to calculate the maximum loan amount based on the DTI ratio isn't running due to an issue with the Python environment on this platform.\n\nHowever, you can calculate it using the following command on your local environment:\n\n```bash\npython /Users/kimgun/Desktop/loan_skill/skills/dti-calculator/references/calculator.py max-loan --annual-income 5000 --loan-rate 4.5 --loan-months 360 --region 투기과열\n```\n\nThis will use your annual income, loan rate, loan duration, and the region to determine the maximum loan amount you can obtain based on the DTI ratio. If you need further assistance with executing this on a local machine, please let me know!",
+    "elapsed": 6.5,
     "error": null
   }
 ]
