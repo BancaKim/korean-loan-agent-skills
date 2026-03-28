@@ -5,58 +5,58 @@ description: 한국 주택담보대출 DTI(총부채상환비율) 계산 및 DTI
 
 # DTI (총부채상환비율) 계산기
 
+## ⚠️ 필수 규칙
+
+**반드시 `calculate_dti` 또는 `calculate_dti_max_loan` 도구를 호출하여 정확한 수치를 계산하세요.**
+- DTI 비율 질문 → `calculate_dti` 호출
+- 최대 대출 가능액 질문 → `calculate_dti_max_loan` 호출
+
 ## Workflow
 
-### 1. 사용자 입력 수집
+### 1. 사용자 입력 파싱
 
-다음 정보를 사용자에게 확인:
-- **필수**: 연소득(만원), 신규 대출금액(만원), 금리(%), 상환기간(년 또는 개월)
-- **선택**: 상환방식(원리금균등/원금균등/만기일시), 지역(투기과열/조정대상/비규제), 기존 주담대, 기타대출
+| 파라미터 | 필수 | 기본값 | 설명 |
+|---------|:---:|-------|------|
+| annual_income | ✅ | - | 연소득 (만원) |
+| loan_amount | ✅* | - | 대출금액 (만원) *calculate용 |
+| loan_rate | ✅ | 4.5 | 금리 (%) |
+| loan_months | ✅ | 360 | 기간 (개월) |
+| region | | 투기과열 | 투기과열(40%)/조정대상(50%)/비규제(60%) |
 
-### 2. 계산 실행
+### 2. 도구 호출 (필수!)
 
-`calculator.py`를 CLI로 실행하여 정확한 계산 결과를 얻습니다.
+상황에 맞는 도구를 호출합니다.
 
-**DTI 계산:**
-```bash
-python [SKILLS_DIR]/dti-calculator/references/calculator.py calculate \
-  --annual-income 5000 \
-  --loan-amount 30000 \
-  --loan-rate 4.5 \
-  --loan-months 360 \
-  --method 원리금균등 \
-  --region 투기과열
+**DTI 계산 예시:**
+```
+calculate_dti(
+  annual_income=5000,        # 연소득 5천만
+  loan_amount=30000,         # 3억 대출
+  loan_rate=4.5,
+  loan_months=360,
+  region="투기과열",
+  existing_mortgages='[{"balance":10000,"rate":3.5,"remaining_months":240,"method":"원리금균등"}]',
+  other_loans='[{"balance":5000,"rate":5.0}]'
+)
 ```
 
-**기존 대출 포함:**
-```bash
-python [SKILLS_DIR]/dti-calculator/references/calculator.py calculate \
-  --annual-income 5000 \
-  --loan-amount 30000 \
-  --loan-rate 4.5 \
-  --loan-months 360 \
-  --existing-mortgages '[{"balance":10000,"rate":3.5,"remaining_months":240,"method":"원리금균등"}]' \
-  --other-loans '[{"balance":5000,"rate":5.0}]'
+**DTI 기준 최대 대출 가능액 역산:**
+```
+calculate_dti_max_loan(
+  annual_income=5000,
+  loan_rate=4.5,
+  loan_months=360,
+  region="투기과열"
+)
 ```
 
-**DTI 기준 최대 대출 가능액:**
-```bash
-python [SKILLS_DIR]/dti-calculator/references/calculator.py max-loan \
-  --annual-income 5000 \
-  --loan-rate 4.5 \
-  --loan-months 360
-```
+### 3. 결과 해석
 
-출력은 JSON입니다. `is_pass` 필드로 통과 여부를 확인합니다.
-
-### 3. 결과 해석 및 안내
-
-계산 결과를 기반으로 사용자에게 설명:
 - DTI 비율과 한도 대비 여유/초과 정도
 - 초과 시: 대출금액 축소, 상환기간 연장, 기타대출 상환 등 개선 방안
-- DTI는 기타대출의 **이자만** 포함 (DSR보다 느슨함을 안내)
+- **DTI는 기타대출의 이자만 포함** (DSR보다 느슨함을 안내)
 
-## 핵심 규제 데이터 (계산기에 내장)
+## 핵심 규제 데이터
 
 ### DTI 한도율
 | 지역 | DTI 한도 |
@@ -65,7 +65,6 @@ python [SKILLS_DIR]/dti-calculator/references/calculator.py max-loan \
 | 조정대상지역 | **50%** |
 | 비규제지역 | **60%** |
 | 서민·실수요자 (연소득 7천만 이하 무주택) | **60%** |
-| 정책대출 (디딤돌) | **60%** |
 
 ### 신DTI 산정 공식
 ```

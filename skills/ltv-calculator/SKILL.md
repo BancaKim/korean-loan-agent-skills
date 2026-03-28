@@ -5,32 +5,45 @@ description: 한국 주택담보대출 LTV(주택담보대출비율) 계산기. 
 
 # LTV (주택담보대출비율) 계산기
 
+## ⚠️ 필수 규칙
+
+**반드시 `calculate_ltv` 도구를 호출하여 정확한 수치를 계산하세요.**
+절대로 도구 호출 없이 답변하지 마세요.
+
 ## Workflow
 
-### 1. 사용자 입력 수집
+### 1. 사용자 입력 파싱
 
-다음 정보를 사용자에게 확인:
-- **필수**: 주택 감정가(만원), 지역유형(투기과열/조정대상/비규제), 차주유형(무주택/생애최초/1주택처분/다주택)
-- **선택**: 선순위채권 잔액, 소액임차보증금 지역, 임차인 유무
+| 파라미터 | 필수 | 기본값 | 설명 |
+|---------|:---:|-------|------|
+| property_value | ✅ | - | 주택가격 (만원). "7억"→70000 |
+| region_type | | 투기과열 | 서울→투기과열, 지방→비규제 |
+| borrower_type | | 무주택 | 무주택/서민실수요/생애최초/1주택처분/다주택 |
+| senior_liens | | 0 | 선순위채권 (만원) |
 
-### 2. 계산 실행
+### 2. 도구 호출 (필수!)
 
-```bash
-python [SKILLS_DIR]/ltv-calculator/references/calculator.py calculate \
-  --property-value 70000 \
-  --region-type 투기과열 \
-  --borrower-type 무주택
+`calculate_ltv` 도구를 호출합니다.
+
+**호출 예시:**
+```
+calculate_ltv(
+  property_value=120000,     # 12억 아파트
+  region_type="투기과열",     # 서울
+  borrower_type="무주택"
+)
 ```
 
 **선순위채권/임차인 있는 경우:**
-```bash
-python [SKILLS_DIR]/ltv-calculator/references/calculator.py calculate \
-  --property-value 70000 \
-  --region-type 투기과열 \
-  --borrower-type 무주택 \
-  --senior-liens 5000 \
-  --deposit-region 서울 \
-  --has-tenant
+```
+calculate_ltv(
+  property_value=70000,
+  region_type="투기과열",
+  borrower_type="무주택",
+  senior_liens=5000,         # 선순위 5천만
+  deposit_region="서울",
+  has_tenant=true
+)
 ```
 
 ### 3. 결과 해석
@@ -39,7 +52,7 @@ python [SKILLS_DIR]/ltv-calculator/references/calculator.py calculate \
 - `high_value_applied`: 9억 초과 차등 LTV 적용 여부
 - 생애최초 자격이면 LTV 40%→70%로 대폭 상향됨을 안내
 
-## 핵심 규제 데이터 (계산기에 내장)
+## 핵심 규제 데이터
 
 ### 규제지역 LTV
 | 차주 유형 | LTV 한도 |
