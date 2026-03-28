@@ -1,6 +1,8 @@
 ---
 name: ltv-calculator
-description: 한국 주택담보대출 LTV(주택담보대출비율) 계산기. 담보가치 기준 최대 대출 가능액 산출, 2025.10.15 대책 절대한도 반영, 9억 초과 차등 LTV 적용. 사용자가 LTV, 담보인정비율, 규제지역 대출한도, 생애최초 LTV를 물어볼 때 사용. Calculates Korean mortgage LTV limits with absolute caps.
+description: 한국 주택담보대출 LTV(주택담보대출비율) 계산기. 담보가치 기준 최대 대출 가능액 산출, 2025.10.15 대책 절대한도 반영, 9억 초과 차등 LTV 적용. 사용자가 LTV, 담보인정비율, 규제지역 대출한도, 생애최초 LTV를 물어볼 때 사용.
+tools:
+  - calculate_ltv
 ---
 
 # LTV (주택담보대출비율) 계산기

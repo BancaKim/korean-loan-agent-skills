@@ -1,15 +1,18 @@
 ---
 name: dti-calculator
-description: 한국 주택담보대출 DTI(총부채상환비율) 계산 및 DTI 기준 최대 대출 가능액 역산. 사용자가 DTI 계산, DTI 한도, 소득 대비 상환비율, 신DTI 기준 대출 한도를 물어볼 때 사용. Calculates Korean mortgage DTI ratio and reverse-calculates max loan amount within DTI limits.
+description: 한국 주택담보대출 DTI(총부채상환비율) 계산 및 DTI 기준 최대 대출 가능액 역산. 사용자가 DTI 계산, DTI 한도, 소득 대비 상환비율, 신DTI 기준 대출 한도를 물어볼 때 사용.
+tools:
+  - calculate_dti_tool
+  - calculate_dti_max_loan_tool
 ---
 
 # DTI (총부채상환비율) 계산기
 
 ## ⚠️ 필수 규칙
 
-**반드시 `calculate_dti` 또는 `calculate_dti_max_loan` 도구를 호출하여 정확한 수치를 계산하세요.**
-- DTI 비율 질문 → `calculate_dti` 호출
-- 최대 대출 가능액 질문 → `calculate_dti_max_loan` 호출
+**반드시 `calculate_dti_tool` 또는 `calculate_dti_max_loan_tool` 도구를 호출하여 정확한 수치를 계산하세요.**
+- DTI 비율 질문 → `calculate_dti_tool` 호출
+- 최대 대출 가능액 질문 → `calculate_dti_max_loan_tool` 호출
 
 ## Workflow
 
@@ -29,7 +32,7 @@ description: 한국 주택담보대출 DTI(총부채상환비율) 계산 및 DTI
 
 **DTI 계산 예시:**
 ```
-calculate_dti(
+calculate_dti_tool(
   annual_income=5000,        # 연소득 5천만
   loan_amount=30000,         # 3억 대출
   loan_rate=4.5,

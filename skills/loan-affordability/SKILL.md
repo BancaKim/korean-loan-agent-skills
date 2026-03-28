@@ -1,13 +1,15 @@
 ---
 name: loan-affordability
-description: 한국 주택담보대출 종합 대출가능액 계산. LTV·DTI·DSR 세 가지 규제를 동시 적용하여 실제 최대 대출 가능액 산출. 바인딩 규제 식별 및 한도 개선 시뮬레이션. 사용자가 "얼마까지 대출 가능?", "대출 한도", "최대 대출액", "대출가능액"을 물어볼 때 사용. Comprehensive Korean mortgage affordability calculator combining LTV, DTI, and DSR limits.
+description: 한국 주택담보대출 종합 대출가능액 계산. LTV·DTI·DSR 세 가지 규제를 동시 적용하여 실제 최대 대출 가능액 산출. 바인딩 규제 식별 및 한도 개선 시뮬레이션. 사용자가 "얼마까지 대출 가능?", "대출 한도", "최대 대출액", "대출가능액"을 물어볼 때 사용.
+tools:
+  - calculate_loan_affordability_tool_tool
 ---
 
 # 대출가능액 종합 계산기
 
 ## ⚠️ 필수 규칙
 
-**반드시 `calculate_loan_affordability` 도구를 호출하여 정확한 수치를 계산하세요.**
+**반드시 `calculate_loan_affordability_tool` 도구를 호출하여 정확한 수치를 계산하세요.**
 절대로 도구 호출 없이 답변하지 마세요. 사용자가 대출 한도를 물어보면 반드시 도구를 실행하고 그 결과를 기반으로 답변합니다.
 
 ## Workflow
@@ -29,11 +31,11 @@ description: 한국 주택담보대출 종합 대출가능액 계산. LTV·DTI·
 
 ### 2. 도구 호출 (필수!)
 
-`calculate_loan_affordability` 도구를 파라미터와 함께 호출합니다.
+`calculate_loan_affordability_tool` 도구를 파라미터와 함께 호출합니다.
 
 **기본 호출 예시:**
 ```
-calculate_loan_affordability(
+calculate_loan_affordability_tool(
   annual_income=6000,        # 연소득 6천만
   property_value=70000,      # 7억 아파트
   loan_rate=4.5,             # 금리 4.5%
@@ -46,7 +48,7 @@ calculate_loan_affordability(
 
 **기존 대출이 있는 경우:**
 ```
-calculate_loan_affordability(
+calculate_loan_affordability_tool(
   annual_income=8000,
   property_value=90000,
   loan_rate=4.0,
