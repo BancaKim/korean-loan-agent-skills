@@ -147,26 +147,6 @@ result = agent.invoke(
 3. **Execute** — `calculator.py calculate --annual-income 6000 --property-value 70000 ...` 실행
 4. **Respond** — JSON 결과 해석 → "LTV 2.8억, DSR 2.9억 중 **LTV가 바인딩**, 생애최초면 +2.1억 가능" 안내
 
-### 계산기 단독 사용 (에이전트 없이)
-
-스킬과 별개로, 계산기 Python 파일을 CLI로 직접 실행할 수도 있습니다:
-
-```bash
-cd korean-loan-agent-skills
-
-# DSR 계산
-python skills/dsr-calculator/references/calculator.py calculate \
-  --annual-income 5000 --loan-amount 30000 --loan-rate 4.5 \
-  --loan-months 360 --rate-type 변동 --region 수도권
-
-# 종합 대출가능액
-python skills/loan-affordability/references/calculator.py calculate \
-  --annual-income 6000 --property-value 70000 --loan-rate 4.5 \
-  --loan-months 360 --region-type 투기과열 --borrower-type 무주택
-```
-
-출력은 JSON이므로 다른 시스템과 쉽게 연동됩니다.
-
 ## 디렉토리 구조
 
 ```
@@ -248,6 +228,40 @@ examples/
 | 20 | 연소득 5천만이고 서울(투기과열)인데 DTI 기준으로 최대 얼마까지 대출 가능해? | 서민 실수요자 DTI 60% 적용 | 60% 적용 | **PASS** |
 
 > 상세 결과: [`tests/EVAL_RESULTS.md`](tests/EVAL_RESULTS.md) | 테스트 스크립트: [`tests/eval_scenarios.py`](tests/eval_scenarios.py)
+
+## DeepAgent 실제 응답 테스트
+
+`create_deep_agent()`에 스킬을 로드한 후 자연어 질문 20건을 넣어 실제 응답을 기록한 결과입니다.
+
+**20/20 응답 성공** | 모델: `gpt-4o-mini` | 평균 응답: 13초
+
+| # | 질문 (자연어) | 응답 요약 | 시간 |
+|:-:|-------------|----------|:----:|
+| 1 | 맞벌이 연소득 1억, 서울 8억, 무주택, 변동금리 | LTV 60% 적용 → 약 4.8억 추정 | 7s |
+| 2 | 연소득 4천만, 서울 5억 첫 집, 변동 4.5% 30년 | 월 상환액 약 253만원 계산 | 17s |
+| 3 | 연소득 6천만, 서울 7억 생애최초, 고정 vs 변동 | 금리유형 장단점 비교 안내 | 5s |
+| 4 | 연소득 4천만, 지방 3억, 변동 4% 30년 | 최대 1.8억, 월 상환 약 47만원 | 44s |
+| 5 | 연소득 8천만 서민실수요자, 서울 15억 | LTV/DSR 기준 설명, 약 9억 추정 | 8s |
+| 6 | 기존대출 1.3억 보유, 서울 9억 추가대출 | 소득·기존채무 고려 필요 안내 | 6s |
+| 7 | 연소득 6천만, 지방 비규제 4억 생애최초 고정 3.5% | 월 상환액 약 178만원 | 41s |
+| 8 | 연소득 5천만, 2금융(저축은행) 가능성 | 2금융 조건 유연하나 금리 높음 안내 | 3s |
+| 9 | 연소득 2억, 서울 25억 생애최초 고정 | 추가 정보 요청 (금리, 기간) | 2s |
+| 10 | 연소득 7천만, 서울 8억 생애최초 혼합10년 | DSR 약 17.13%, 월 상환 약 100만원 | 61s |
+| 11 | 연소득 3천만, 지방 2억 고정 3.8% 20년 | 월 상환 약 107만원 | 10s |
+| 12 | 연소득 1.2억, 1주택 처분조건 갈아타기 | LTV/DTI 고려 필요 안내 | 5s |
+| 13 | 연소득 5천만, 3억 고정 4.5% 30년 DSR | **DSR 36.46%** 계산 (정답 36.48%) ✅ | 23s |
+| 14 | 같은 조건 변동금리로 바꾸면? | 스트레스 금리 개념 설명 | 3s |
+| 15 | 변동→고정 대출가능액 차이 | 추가 정보 요청 | 2s |
+| 16 | 서울 12억 9억 초과 차등 LTV | 차등 적용 설명 (9억↓ 80%, 초과 60%) | 4s |
+| 17 | 다주택자 서울 추가 매수 가능? | 대출 규제·신용도 등 고려 필요 안내 | 5s |
+| 18 | 서민실수요자 LTV 우대 가능? 서울 7억 | LTV 70% → **4.9억** 안내 ✅ | 3s |
+| 19 | 신용대출 DTI 포함 여부, DSR 차이 | DTI vs DSR 차이 설명 (이자만 vs 원리금) ✅ | 3s |
+| 20 | 연소득 5천만 투기과열 DTI 최대 대출 | DTI 40% 기준 약 **3.5억** | 16s |
+
+> **참고**: `gpt-4o-mini`는 비용 효율적이지만 스킬의 계산기를 항상 호출하지는 않았습니다.
+> `claude-sonnet-4-20250514`이나 `gpt-4o` 등 고성능 모델 사용 시 계산기 활용도와 정확도가 크게 향상됩니다.
+
+> 상세 결과: [`tests/DEEPAGENT_RESULTS.md`](tests/DEEPAGENT_RESULTS.md) | 테스트 스크립트: [`tests/test_deepagent_eval.py`](tests/test_deepagent_eval.py)
 
 ### 검증 방법
 
