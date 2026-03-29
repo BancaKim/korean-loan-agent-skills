@@ -24,7 +24,7 @@ from deepagents import create_deep_agent
 from deepagents.backends.local_shell import LocalShellBackend
 from langgraph.checkpoint.memory import MemorySaver
 
-# LangChain Tools (각 스킬의 references/tools.py에서 수집)
+# LangChain Tools (각 스킬의 references/calculator.py에서 수집)
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from tools import get_all_tools
 

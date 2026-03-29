@@ -2,11 +2,11 @@
 호환성 래퍼 — 루트 tools.py로 이전됨.
 기존 코드에서 `from loan_tools import get_all_tools`를 사용하는 경우 호환.
 
-도구 정의는 각 스킬의 references/tools.py에 있습니다:
-  - skills/ltv-calculator/references/tools.py
-  - skills/dti-calculator/references/tools.py
-  - skills/dsr-calculator/references/tools.py
-  - skills/loan-affordability/references/tools.py
+도구 정의는 각 스킬의 references/calculator.py에 있습니다:
+  - skills/ltv-calculator/references/calculator.py
+  - skills/dti-calculator/references/calculator.py
+  - skills/dsr-calculator/references/calculator.py
+  - skills/loan-affordability/references/calculator.py
 
 수집기: tools.py (프로젝트 루트)
 """
