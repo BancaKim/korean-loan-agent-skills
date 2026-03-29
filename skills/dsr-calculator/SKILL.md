@@ -1,9 +1,7 @@
 ---
 name: dsr-calculator
 description: 한국 주택담보대출 DSR(총부채원리금상환비율) 계산 및 최대 대출 가능액 역산. 스트레스 가산금리 3단계(2025.7.1~) 반영. 사용자가 DSR 계산, DSR 한도, 스트레스 금리, 대출 가능액, 변동금리 vs 고정금리 비교를 물어볼 때 사용.
-tools:
-  - calculate_dsr_tool
-  - calculate_dsr_max_loan
+allowed-tools: calculate_dsr_tool, calculate_dsr_max_loan
 ---
 
 # DSR (총부채원리금상환비율) 계산기
