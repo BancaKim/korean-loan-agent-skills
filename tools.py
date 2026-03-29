@@ -1,6 +1,6 @@
 """
 한국 부동산 대출 계산기 - LangChain Tools 모음
-각 스킬의 references/calculator.py에서 @tool 도구를 수집하여 제공합니다.
+각 스킬의 references/calculator.py에 정의된 @tool 도구를 수집하여 제공합니다.
 
 Usage:
     from tools import get_all_tools

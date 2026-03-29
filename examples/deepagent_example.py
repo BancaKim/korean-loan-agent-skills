@@ -10,20 +10,30 @@ Usage:
     python deepagent_example.py
 """
 
+import sys
 from pathlib import Path
+
 from deepagents import create_deep_agent
+from deepagents.backends.local_shell import LocalShellBackend
 from langgraph.checkpoint.memory import MemorySaver
 
+# 프로젝트 루트 경로를 sys.path에 추가 (tools.py import용)
+PROJECT_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(PROJECT_DIR))
+
+from tools import get_all_tools
+
 # 스킬 디렉토리 경로
-SKILLS_DIR = str(Path(__file__).parent.parent / "skills")
+SKILLS_DIR = str(PROJECT_DIR / "skills")
 
 # 에이전트 생성
-checkpointer = MemorySaver()
-
 agent = create_deep_agent(
     model="claude-sonnet-4-20250514",
+    memory=[f"{SKILLS_DIR}/AGENTS.md"],
     skills=[f"{SKILLS_DIR}/"],
-    checkpointer=checkpointer,
+    tools=get_all_tools(),
+    backend=LocalShellBackend(root_dir=str(PROJECT_DIR), inherit_env=True),
+    checkpointer=MemorySaver(),
 )
 
 
@@ -37,7 +47,7 @@ def ask(question: str, thread_id: str = "loan-consult-1"):
 
 
 if __name__ == "__main__":
-    # 예시 1: 대출 가능액 질문 → loan-affordability 스킬 매칭
+    # 예시 1: 대출 가능액 질문 → loan-affordability 스킬 매칭 + calculate_loan_affordability_tool 호출
     print("=" * 60)
     print("질문: 연소득 6천만원인데 서울 7억 아파트 대출 얼마나 가능해?")
     print("=" * 60)
