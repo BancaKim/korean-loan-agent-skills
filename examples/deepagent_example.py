@@ -54,7 +54,7 @@ if __name__ == "__main__":
     answer = ask("연소득 6천만원인데 서울 7억 아파트 대출 얼마까지 가능해? 변동금리 4.5% 30년으로 알아봐줘")
     print(answer)
 
-    # 예시 2: 상품 비교 → compare-products + didimdol + bogeumjari 스킬 매칭
+    # 예시 2: 상품 비교 → didimdol + bogeumjari 스킬 매칭
     print("\n" + "=" * 60)
     print("질문: 디딤돌 vs 보금자리론 뭐가 유리해?")
     print("=" * 60)
